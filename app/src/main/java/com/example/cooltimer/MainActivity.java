@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
             resetTimer();
         }
     }
+
     private void updateTimer(long millisUntilFinished){
         int minutes = (int) millisUntilFinished/1000/60;
         int seconds = (int) millisUntilFinished/1000 - (minutes * 60);
